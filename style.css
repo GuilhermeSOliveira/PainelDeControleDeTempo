@@ -1,3 +1,7 @@
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(20, 140px);
@@ -23,6 +27,59 @@
     grid-row-end: 14;
     background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
+}
+
+.perfilDiario {
+    position: absolute;
+    color: hsl(235, 45%, 61%);
+    margin: 28% 2%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.perfilSemanal {
+    position: absolute;
+    color: hsl(235, 45%, 61%);
+    margin: 31% 2%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.perfilMensal {
+    position: absolute;
+    color: hsl(235, 45%, 61%);
+    margin: 34% 2%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.perfilDiario:hover, .perfilSemanal:hover, .perfilMensal:hover {
+    cursor: pointer;
+    color: #FFF;
+}
+
+.perfilFoto {
+    height: 70px;
+    width: 70px;
+    margin: 20% 0 0 10%;
+    border: solid #FFF;
+    border-radius: 50%;
+}
+
+.relatorio {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+    margin: 10% 0 0 10%;
+}
+
+.nome {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 10% 0 0 10%;
+    line-height: 1.5em;
+    color: #FFF;
 }
 
 .trabalholustracao {
@@ -139,56 +196,138 @@
         display: grid;
         grid-template-columns: repeat(3, 150);
         grid-row-gap: 1em;
-        margin: 10% 17%;
+        margin: 10% 13%;
 
     }
-   
+
     .perfil {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-end: 5;
+    }
+
+    .perfilPeriodos {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 7;
+    }
+
+    .perfilFoto {
+        margin: 10% 7%;
+    }
+
+    .relatorio {
+        margin: -30% 37%;
+        width: 100px;
+    }
+
+    .nome {
+        width: 200px;
+        font-size: 25px;
+        margin: 30% 37%;
+    }
+
+    .perfilDiario {
+        margin-left: 5%;
+        margin-top: 35%;
+        font-size: 20px;
+    }
+
+    .perfilSemanal {
+        margin-left: 28%;
+        margin-top: 35%;
+        font-size: 20px;
+    }
+
+    .perfilMensal {
+        margin-left: 55%;
+        margin-top: 35%;
+        font-size: 20px;
     }
 
     .trabalho {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start:2;
-        grid-row-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 12;
+    }
+
+    .trabalholustracao {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 9;
+        grid-row-end: 12;
     }
 
     .play {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 14;
+        grid-row-end: 17;
+    }
+
+    .playIlustracao {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 13;
+        grid-row-end: 17;
     }
 
     .estudando {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 4;
-        grid-row-end: 5;
+        grid-row-start: 19;
+        grid-row-end: 22;
+    }
+
+    .estudandoIlustracao {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 18;
+        grid-row-end: 22;
     }
 
     .exercicios {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 5;
-        grid-row-end: 6;
+        grid-row-start: 24;
+        grid-row-end: 27;
+    }
+
+    .exerciciosIlustracao {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 23;
+        grid-row-end: 27;
     }
 
     .social {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 6;
-        grid-row-end: 7;
+        grid-row-start: 29;
+        grid-row-end: 32;
+    }
+
+    .socialIlustracao {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 28;
+        grid-row-end: 32;
     }
 
     .cuidadosPessoais {
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 7;
-        grid-row-end: 8;
+        grid-row-start: 34;
+        grid-row-end: 37;
+    }
+
+    .cuidadosPessoaisIlustracao {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 33;
+        grid-row-end: 37;
     }
 }
