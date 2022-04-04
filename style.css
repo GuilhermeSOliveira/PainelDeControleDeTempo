@@ -96,8 +96,10 @@ body {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
-    background-color: hsl(15, 100%, 70%);
     border-radius: 20px;
+    background: no-repeat url(imagens/icon-work.svg);
+    background-position: 90% 0%;
+    background-color: hsl(15, 100%, 70%);
 }
 
 .play {
@@ -114,6 +116,8 @@ body {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
+    background: no-repeat url(imagens/icon-play.svg);
+    background-position: 90% 0%;
     background-color: hsl(195, 74%, 62%);
     border-radius: 20px;
 }
@@ -132,6 +136,8 @@ body {
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
+    background: no-repeat url(imagens/icon-study.svg);
+    background-position: 90% 0%;
     background-color: hsl(348, 100%, 68%);
     border-radius: 20px;
 }
@@ -150,6 +156,8 @@ body {
     grid-column-end: 5;
     grid-row-start: 8;
     grid-row-end: 12;
+    background: no-repeat url(imagens/icon-exercise.svg);
+    background-position: 90% 0%;
     background-color: hsl(145, 58%, 55%);
     border-radius: 20px;
 }
@@ -169,6 +177,8 @@ body {
     grid-column-end: 7;
     grid-row-start: 8;
     grid-row-end: 12;
+    background: no-repeat url(imagens/icon-social.svg);
+    background-position: 90% 0%;
     background-color: hsl(264, 64%, 52%);
     border-radius: 20px;
 }
@@ -187,8 +197,38 @@ body {
     grid-column-end: 9;
     grid-row-start: 8;
     grid-row-end: 12;
+    background: no-repeat url(imagens/icon-self-care.svg);
+    background-position: 90% 0%;
     background-color: hsl(43, 84%, 65%);
     border-radius: 20px;
+}
+
+.tituloSecao {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+    margin: 10% 10%;
+    display: inline-block;
+    width: 150px;
+}
+
+.pontinhos {
+    margin-left: 15%;
+}
+
+.tempo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 50px;
+    margin: 10% 10%;
+}
+
+.ultimosTempos {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+    margin: 10% 10%;
 }
 
 @media screen and (max-width: 480px) {
@@ -329,5 +369,25 @@ body {
         grid-column-end: 3;
         grid-row-start: 33;
         grid-row-end: 37;
+    }
+
+    .tituloSecao {
+        margin: 10% 5%;
+        display: inline-block;
+    }
+
+    .pontinhos {
+        margin-left: 28%;
+    }
+
+    .tempo {
+        margin: -5% 5%;
+        font-size: 30px;
+    }
+
+    .ultimosTempos {
+        text-align: end;
+        margin: -7% 5%;
+        font-size: 14px;
     }
 }
