@@ -22,3 +22,27 @@ let mensal = document.querySelector('.perfilMensal').onclick = function () {
     document.querySelector('#tempoSocial').innerHTML = "14hrs"
     document.querySelector('#tempoCuidadosPessoais').innerHTML = "5hrs"
 };
+
+let pontinhosTrabalho = document.querySelector('#pontinhosTrabalho').onclick = function () {
+    console.log(pontinhosTrabalho)
+};
+
+ let pontinhosPlay = document.querySelector('#pontinhosPlay').onclick = function () {
+    console.log(pontinhosPlay)
+ };
+
+ let pontinhosEstudando = document.querySelector('#pontinhosEstudando').onclick = function () {
+    console.log(pontinhosEstudando)
+ };
+
+ let pontinhosExercicios = document.querySelector('#pontinhosExercicios').onclick = function () {
+     console.log(pontinhosExercicios)
+ };
+
+ let pontinhosSocial = document.querySelector('#pontinhosSocial').onclick = function () {
+    console.log(pontinhosSocial)
+ };
+
+ let pontinhosCuidadosPessoais = document.querySelector('#pontinhosCuidadosPessoais').onclick = function () {
+     console.log(pontinhosCuidadosPessoais)
+ };
